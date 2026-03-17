@@ -3,7 +3,7 @@
     DESKTOP <span color="teal">BITRATE</span> MONITOR
   </h1>
   <h2>
-    A Desktop application to listen for SRT ingest server stats and change scenes in your broadcasting software.
+    A Desktop app to listen for SRT ingest server stats and change scenes in your broadcasting software.
   </h2>
 </div>
 
