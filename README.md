@@ -38,7 +38,7 @@
 
 - Execute and install the application
   - It might be you have to accept the warning for security risks. This warning accurse because i don't have bought a "content-security-policy" to sign the app as secure
-- Choose your platform and [register](#account-Settings) your account
+- Choose your platform and Account Settings your account
   - The enabled switch displays the current platform to listen for chat messages
 - Setup your stats-server to listen for
 - Connect your broadcasting software with the websocket (OBS-Websocket 5.x+ and higher)
