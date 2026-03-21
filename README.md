@@ -44,7 +44,7 @@ If you now start a SRT-Feed and the server publish stats you can see the current
 # Dashboard
 <details>
   <summary> Show all dashboard descriptions </summary>
-
+  <img src="readme-assets/dashboard-full.png" alt="image" />
   <ol>
     <li>Navigation side panel with all navigation buttons</li>
       <ul>
