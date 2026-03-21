@@ -668,3 +668,29 @@ If you now start a SRT-Feed and the server publish stats you can see the current
       </tr>
     </tbody>
   </table>
+
+
+# Roadmap
+<ul>
+  <li>
+    FIND BROADCASTERS THEY ARE USING THE APP
+  </li>
+  <li>
+    Add a overlay served by the app to display the feed stats in the broadcasting software
+  </li>
+  <li>
+    Add more different server types
+  </li>
+  <li>
+    Add more broadcasting softwares
+  </li>
+  <li>
+    Add more platforms (if there are more relevant in future)
+  </li>
+  <li>
+    Find some translators to add more languages to the application
+  </li>
+  <li>
+    Get community feedback and make the app well for them
+  </li>
+</ul>
