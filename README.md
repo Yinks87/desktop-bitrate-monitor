@@ -1,6 +1,6 @@
 <div align="center">
   <h1>
-    DESKTOP>BITRATE</span> MONITOR
+    DESKTOP BITRATE MONITOR
   </h1>
   <h2>
     A Desktop app to listen for SRT ingest server stats and change scenes in your broadcasting software.
