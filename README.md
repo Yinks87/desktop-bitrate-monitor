@@ -9,7 +9,7 @@
 
 ### Why Desktop-Bitrate-Monitor
 
-<ul style="list-style: none">
+<ul style="list-style-type: number">
   <li >
     🌟 All settings and Tokens are saved on your local machine, no server security issues are possible
   </li>
