@@ -9,7 +9,7 @@
 
 ### Why Desktop-Bitrate-Monitor
 
-<ul style="list-style-type: number">
+<ul style="list-style-type: none">
   <li >
     🌟 All settings and Tokens are saved on your local machine, no server security issues are possible
   </li>
@@ -27,7 +27,9 @@
 # Quick Start Guide
 
 - Download the "Desktop-bitrate-monitor-x.x.x-setup.exe file
-![downloader-exe](readme-assets/downloader-exe.png)
+
+  ![downloader-exe](readme-assets/downloader-exe.png)
+
 - Execute and install the application 
   - It might be you have to accept the warning for security risks. This warning accurse because i don't have bought a "content-security-policy" to sign the app as secure
 - Choose your platform and register your account
@@ -41,10 +43,43 @@ If you now start a SRT-Feed and the server publish stats you can see the current
 
 # Dashboard
 <details>
-<summary> Show all dashboard descriptions </summary>
-<image src="readme-assets/dashboard-full.png" alt="image"> </image>
-<div style="display: flex; justify-content: center;">
-</div>
+  <summary> Show all dashboard descriptions </summary>
+  <img src="readme-assets/dashboard-full.png" alt="image" />
+  <ol>
+    <li>Navigation side panel with all navigation buttons</li>
+      <ul>
+        <li>Platform button opens a card to change the active platform and switch to the platform-settings</li>
+        <li>Only one active platform are allowed</li>
+        <img src="readme-assets/platform-select.png" alt="image">
+      </ul>
+    <li>Toggle navigation side panel</li>
+      <ul>
+        <li>State will stored in the config, after app restart the state are loaded again</li>
+      </ul>
+    <li>Full Feed-Chart</li>
+      <ul>
+        <li>Displays the live bitrate in a line chart</li>
+      </ul>
+    <li>Feed Stats</li>
+      <ul>
+        <li>The current feed-bitrate - refetching every 1000ms</li>
+        <li>The current feed-speed - refetching every 1000ms</li>
+        <li>The current feed-uptime - resets after restarting the feed</li>
+        <li>The total feed-uptime - the sum of all single feed uptimes since the app starts, resets after app restart</li>
+      </ul>
+    <li>Connection states from the server and broadcasting software</li>
+      <ul>
+        <li>Color gray: No connection to a broadcasting software </li>
+        <li>Color green: Broadcasting software is connected to the app</li>
+        <li>Type: Show the server or broadcasting type if connected</li>
+      </ul>
+    <li>Current active platform to listen for chat messages</li>
+      <ul>
+        <li>Top: Shows the platform icon</li>
+        <li>Bottom: Shows the Broadcaster nickname, is no broadcaster signed in for the active platform a information is shown instead the nick</li>
+      </ul>
+    <li>Open app session log feed</li>
+  </ul>
 
 </details>
 
