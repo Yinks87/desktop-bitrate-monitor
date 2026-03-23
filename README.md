@@ -659,9 +659,6 @@ Once you start an SRT feed and the server publishes stats, you will see live dat
 # Roadmap
 <ul>
   <li>
-    FIND BROADCASTERS THEY ARE USING THE APP
-  </li>
-  <li>
     Add a overlay served by the app to display the feed stats in the broadcasting software
   </li>
   <li>
