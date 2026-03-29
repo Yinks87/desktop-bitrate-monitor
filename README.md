@@ -332,7 +332,7 @@ Once you start an SRT feed and the server publishes stats, you will see live dat
 
 ### Switcher enabled states
 
-![image](readme-assets/switcher/enabled-states.png)
+
 
   <ol>
     <li>
