@@ -148,6 +148,142 @@ Once you start an SRT feed and the server publishes stats, you will see live dat
     </ul>
   </ol>
 
+
+- All commands for chat control
+  <table>
+    <thead>
+      <tr>
+        <th>COMMAND ACTION</th>
+        <th>DESCRIPTION</th>
+        <th>DEFAULT ALIASES</th>
+        <th>ARGUMENTS </br> (required)</th>
+        <th>EXAMPLE</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>startStream</td>
+        <td>Starts the stream</td>
+        <td>!start</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>stopStream</td>
+        <td>Stops the stream</td>
+        <td>!stop</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>addAdmin</td>
+        <td>Adds a new admin</td>
+        <td>!addadmin</td>
+        <td>userName</td>
+        <td>!addadmin yinks87</td>
+      </tr>
+      <tr>
+        <td>removeAdmin</td>
+        <td>Removes a existing admin</td>
+        <td>!removeadmin</td>
+        <td>userName</td>
+        <td>!removeadmin yinks87</td>
+      </tr>
+      <tr>
+        <td>addMod</td>
+        <td>Adds a new moderator</td>
+        <td>!addmod</td>
+        <td>userName</td>
+        <td>!addmod yinks87</td>
+      </tr>
+      <tr>
+        <td>removeMod</td>
+        <td>Removes a moderator</td>
+        <td>!removemod</td>
+        <td>userName</td>
+        <td>!removemod yinks87</td>
+      </tr>
+      <tr>
+        <td>switchToLive</td>
+        <td>Switch to Live Scene</td>
+        <td>!live</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>switchToLow</td>
+        <td>Switch to Low Scene</td>
+        <td>!low</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>switchToOffline</td>
+        <td>Switch to Offline Scene</td>
+        <td>!offline</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>switchToPrivacy</td>
+        <td>Switch to Privacy Scene</td>
+        <td>!privacy</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>switchToScene</td>
+        <td>Switch Scene</td>
+        <td>!switch, !ss</td>
+        <td>sceneName</td>
+        <td>!switch low</td>
+      </tr>
+      <tr>
+        <td>refreshStream</td>
+        <td>Refreshes the stream</td>
+        <td>!refresh, !fix</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>setTrigger</td>
+        <td>Set the trigger to low threshold</td>
+        <td>!trigger</td>
+        <td>value</td>
+        <td>!trigger 500</td>
+      </tr>
+      <tr>
+        <td>setRTrigger</td>
+        <td>Set the trigger to live threshold</td>
+        <td>!rtrigger</td>
+        <td>value</td>
+        <td>!rtrigger 1200</td>
+      </tr>
+      <tr>
+        <td>addAlias</td>
+        <td>Set a alias for a command</td>
+        <td>!addalias</td>
+        <td>command, alias</td>
+        <td>!addalias live !L</td>
+      </tr>
+      <tr>
+        <td>removeAlias</td>
+        <td>Removes a alias</td>
+        <td>!removealias</td>
+        <td>alias</td>
+        <td>!removealias !L</td>
+      </tr>
+      <tr>
+        <td>bitrate</td>
+        <td>Returns the bitrate message</td>
+        <td>!bitrate, !b</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+
+  </table>
+
 ##
 
 ### Chat Messages
@@ -531,19 +667,15 @@ Once you start an SRT feed and the server publishes stats, you will see live dat
 ![image](readme-assets/logging/logging-settings.png)
 
 1. Session logging settings
-
-
-    - Enable / disable the logging for session data
-    - Path/Directory for log storing
-    - Maximum file size for each log - logs are split after reaching the size
-    - Setup logging starting point (App or Broadcasting start)
+   - Enable / disable the logging for session data
+   - Path/Directory for log storing
+   - Maximum file size for each log - logs are split after reaching the size
+   - Setup logging starting point (App or Broadcasting start)
 
 2. Actions logging settings
-
-
-    - Enable / disable actions logging
-    - Path/Directory for log storing
-    - Maximum file size for each log - logs are split after reaching the size
+   - Enable / disable actions logging
+   - Path/Directory for log storing
+   - Maximum file size for each log - logs are split after reaching the size
 
 </details>
 
