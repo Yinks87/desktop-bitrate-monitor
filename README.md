@@ -1,42 +1,3 @@
-
-<div align="center">
-  <h1>
-    <a href='https://github.com/DesktopBitrateMonitor/DesktopBitrateMonitor'>Versions above 1.0.3 are in the new GITUB REPOSITORY</a>
-  </h1>
-</div>
-
-<div align="center">
-  <h1>
-    DESKTOP BITRATE MONITOR
-  </h1>
-  <h2>
-    A desktop app that monitors SRT ingest server statistics and automatically switches scenes in your broadcasting software.
-  </h2>
-</div>
-
-### Why Desktop-Bitrate-Monitor
-
-<ul type="none">
-  <li >
-    🌟 All settings and tokens are stored locally on your machine — no server-related security risks
-  </li>
-  <li>
-    🌟 User-friendly interface
-  </li>
-  <li>
-    🌟 Fully customizable chat messages and commands
-  </li>
-  <li>
-    🌟 Multi-platform support (Twitch, Kick)
-  </li>
-</ul>
-
-<div align="center">
-  <h2>
-    If you have any, questions check the <span> <a href="#help-me">HELP ME - SECTION</a> to find solutions to common problems.</span>
-  </h2>
-</div>
-
 # Quick Start Guide
 
 - Download the "Desktop-bitrate-monitor-x.x.x-setup.exe file
@@ -74,6 +35,10 @@ Once you start an SRT feed and the server publishes stats, you will see live dat
     <li>Full Feed-Chart</li>
       <ul>
         <li>Displays the live bitrate in a line chart</li>
+      </ul>
+      <ul>
+        <li>Select a history logs file and show the stats</li>
+        <img src="readme-assets/dashboard/history-watcher.png" alt="image">
       </ul>
     <li>Feed statistics:</li>
       <ul>
@@ -293,15 +258,15 @@ Once you start an SRT feed and the server publishes stats, you will see live dat
         <td>Set a alias for a command</td>
         <td>!addalias</td>
         <td>Moderator</td>
-        <td>command, alias</td>
-        <td>!addalias live !L</td>
+        <td>existing alias, new alias</td>
+        <td>!addalias !live !L</td>
       </tr>
       <tr>
         <td>remove_alias</td>
         <td>Removes a alias</td>
         <td>!removealias</td>
         <td>Moderator</td>
-        <td>alias</td>
+        <td>existing alias</td>
         <td>!removealias !L</td>
       </tr>
       <tr>
@@ -940,15 +905,3 @@ uptime;
       </tr>
     </tbody>
   </table>
-
-# Roadmap
-
-- ✅ Add a overlay served by the app to display the feed stats in the broadcasting software
-- ✅ Add a Backup / Import function
-- ✅ Add a logging functionality to save session / actions logs
-- ✅ Add Nginx-RTMP Server
-- Add more different server types
-- Add more broadcasting softwares
-- Add more platforms (if there are more relevant in future)
-- Find some translators to add more languages to the application
-- Get community feedback and make the app well for them
